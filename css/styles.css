@@ -1,0 +1,68 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+h1 {
+  color: 	#cd7f32;
+  background-color: #ffc987;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 150%;
+  padding: 20px;
+}
+h2 {
+  margin-left: 20px;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 20px;
+}
+.total {
+  text-decoration: none;
+  color: red;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+ul.friends {
+  display: inline-block;
+  float: left;
+  margin-top: 5px;
+  margin-left: 40px;
+  padding: 0;
+  list-style-type: none;
+}
+li {
+  float: left;
+  margin: 30px;
+}
+a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: blue;
+  font-family: arial;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+img.photo{
+  display: block;
+  border: blue solid 2px;
+  width: 100px;
+  height: 100px;
+}
+img.online {
+  display: block;
+  width: 100px;
+  height: 25px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.more a {
+  display: inline-block;
+  float: right;
+  color: red;
+}
